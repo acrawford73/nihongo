@@ -1,0 +1,769 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<!-- Custom styles for this template -->
+<link href='{% static "css/grid.css" %}' rel="stylesheet">
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+	<div class="container">
+      <h1>Learn Japanese Hiragana</h1>
+      <p class="lead text-muted">Learn all syllables in the Hiragana character set.</p>
+	</div>
+  </section>
+
+<div class="container-sm">
+	<div class="row mb-12 text-center">
+		<div class="col-1">&nbsp;</div>
+		<div class="col-10">
+
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item" role="presentation">
+				<a class="nav-link active" id="vertical-tab" data-toggle="tab" href="#vertical" role="tab" aria-controls="home" aria-selected="true">Vertical View</a>
+			</li>
+			<li class="nav-item" role="presentation">
+				<a class="nav-link" id="horizontal-tab" data-toggle="tab" href="#horizontal" role="tab" aria-controls="profile" aria-selected="false">Horizontal View</a>
+			</li>
+			<li class="nav-item" role="presentation">
+				<a class="nav-link" id="horizontal_r-tab" data-toggle="tab" href="#horizontal_r" role="tab" aria-controls="contact" aria-selected="false">Horizontal View, Reversed</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="vertical" role="tabpanel" aria-labelledby="vertical-tab"><p>abc</p></div>
+			<div class="tab-pane fade" id="horizontal" role="tabpanel" aria-labelledby="horizontal-tab"><p>def</p></div>
+			<div class="tab-pane fade" id="horizontal_r" role="tabpanel" aria-labelledby="horizontal_r-tab"><p>ghi</p></div>
+		</div>
+		<p>&nbsp;</p>
+			<h2>Basic Hiragana (Monographs)</h2>
+			<h4>Kihon no Hiragana (monogurafu)</h4>
+			<h5>きほんのひらがな (ものぐらふ)</h5>
+			<h5>Basic and voiced sounds separated.</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-info">
+						<th scope="col">&nbsp;</th>
+						<th scope="col">a</th>
+						<th scope="col">i</th>
+						<th scope="col">u</th>
+						<th scope="col">e</th>
+						<th scope="col">o</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" class="bg-light">k</th>
+						<td>ka</td>
+						<td>ki</td>
+						<td>ku</td>
+						<td>ke</td>
+						<td>ko</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">s</th>
+						<td>sa</td>
+						<td>si</td>
+						<td>su</td>
+						<td>se</td>
+						<td>so</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">t</th>
+						<td>ta</td>
+						<td>chi</td>
+						<td>tsu</td>
+						<td>te</td>
+						<td>to</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">n</th>
+						<td>na</td>
+						<td>ni</td>
+						<td>nu</td>
+						<td>ne</td>
+						<td>no</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">h</th>
+						<td>ha</td>
+						<td>hi</td>
+						<td>fu</td>
+						<td>he</td>
+						<td>ho</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">m</th>
+						<td>ma</td>
+						<td>mi</td>
+						<td>mu</td>
+						<td>me</td>
+						<td>mo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">y</th>
+						<td>ya</td>
+						<td>&nbsp;</td>
+						<td>yu</td>
+						<td>&nbsp;</td>
+						<td>yo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">r</th>
+						<td>ra</td>
+						<td>ri</td>
+						<td>ru</td>
+						<td>re</td>
+						<td>ro</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">w</th>
+						<td>wa</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>wo(o)</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">n</th>
+						<td>n</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>&nbsp;</p>
+			<table class="table table-hover text-center">
+				<tbody>
+					<tr>
+						<th scope="row" class="bg-light">g</th>
+						<td>ga</td>
+						<td>gi</td>
+						<td>gu</td>
+						<td>ge</td>
+						<td>go</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">z</th>
+						<td>za</td>
+						<td>ji</td>
+						<td>zu</td>
+						<td>ze</td>
+						<td>zo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">d</th>
+						<td>da</td>
+						<td>ji</td>
+						<td>dzu</td>
+						<td>de</td>
+						<td>do</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">b</th>
+						<td>ba</td>
+						<td>bi</td>
+						<td>bu</td>
+						<td>be</td>
+						<td>bo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">p</th>
+						<td>pa</td>
+						<td>pi</td>
+						<td>pu</td>
+						<td>pe</td>
+						<td>po</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>&nbsp;</p>
+			<h5>Basic and voiced sounds grouped by similar syllable.</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-info">
+						<th scope="col">&nbsp;</th>
+						<th scope="col">a</th>
+						<th scope="col">i</th>
+						<th scope="col">u</th>
+						<th scope="col">e</th>
+						<th scope="col">o</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" class="bg-light">k</th>
+						<td>ka</td>
+						<td>ki</td>
+						<td>ku</td>
+						<td>ke</td>
+						<td>ko</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">g</th>
+						<td>ga</td>
+						<td>gi</td>
+						<td>gu</td>
+						<td>ge</td>
+						<td>go</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">s</th>
+						<td>sa</td>
+						<td>si</td>
+						<td>su</td>
+						<td>se</td>
+						<td>so</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">z</th>
+						<td>za</td>
+						<td>ji</td>
+						<td>zu</td>
+						<td>ze</td>
+						<td>zo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">t</th>
+						<td>ta</td>
+						<td>chi</td>
+						<td>tsu</td>
+						<td>te</td>
+						<td>to</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">d</th>
+						<td>da</td>
+						<td>ji</td>
+						<td>dzu</td>
+						<td>de</td>
+						<td>do</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">n</th>
+						<td>na</td>
+						<td>ni</td>
+						<td>nu</td>
+						<td>ne</td>
+						<td>no</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">h</th>
+						<td>ha</td>
+						<td>hi</td>
+						<td>fu</td>
+						<td>he</td>
+						<td>ho</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">b</th>
+						<td>ba</td>
+						<td>bi</td>
+						<td>bu</td>
+						<td>be</td>
+						<td>bo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">p</th>
+						<td>pa</td>
+						<td>pi</td>
+						<td>pu</td>
+						<td>pe</td>
+						<td>po</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">m</th>
+						<td>ma</td>
+						<td>mi</td>
+						<td>mu</td>
+						<td>me</td>
+						<td>mo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">y</th>
+						<td>ya</td>
+						<td>&nbsp;</td>
+						<td>yu</td>
+						<td>&nbsp;</td>
+						<td>yo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">r</th>
+						<td>ra</td>
+						<td>ri</td>
+						<td>ru</td>
+						<td>re</td>
+						<td>ro</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">w</th>
+						<td>wa</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>wo (o)</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">n</th>
+						<td>n</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>&nbsp;</p>
+			<h2>Basic Hiragana (Digraphs)</h2>
+			<h4>Kihon no Hiragana (yuukougurafu)</h4>
+			<h5>きほんのひらがな (ゆうこうぐらふ)</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-info">
+						<th scope="col">&nbsp;</th>
+						<th scope="col">ya</th>
+						<th scope="col">yu</th>
+						<th scope="col">yo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row" class="bg-light">k</th>
+						<td>kya</td>
+						<td>kyu</td>
+						<td>kyo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">g</th>
+						<td>gya</td>
+						<td>gyu</td>
+						<td>gyo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">s</th>
+						<td>sha</td>
+						<td>shu</td>
+						<td>sho</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">j</th>
+						<td>ja</td>
+						<td>ju</td>
+						<td>jo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">c</th>
+						<td>cha</td>
+						<td>chu</td>
+						<td>cho</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">j</th>
+						<td>ja</td>
+						<td>ju</td>
+						<td>jo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">h</th>
+						<td>hya</td>
+						<td>hyu</td>
+						<td>hyo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">b</th>
+						<td>bya</td>
+						<td>byu</td>
+						<td>byo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">p</th>
+						<td>pya</td>
+						<td>pyu</td>
+						<td>pyo</td>
+					</tr>
+						<tr>
+						<th scope="row" class="bg-light">n</th>
+						<td>nya</td>
+						<td>nyu</td>
+						<td>nyo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">m</th>
+						<td>mya</td>
+						<td>myu</td>
+						<td>myo</td>
+					</tr>
+					<tr>
+						<th scope="row" class="bg-light">r</th>
+						<td>rya</td>
+						<td>ryu</td>
+						<td>ryo</td>
+					</tr>
+
+				</tbody>
+			</table>			
+
+			<p>&nbsp;</p>
+			<h5>Basic and voiced sounds grouped by similar syllable.</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-light">
+						<th scope="col">n</th>
+						<th scope="col">w</th>
+						<th scope="col">r</th>
+						<th scope="col">y</th>
+						<th scope="col">m</th>
+						<th scope="col">p</th>
+						<th scope="col">b</th>
+						<th scope="col">h</th>
+						<th scope="col">n</th>
+						<th scope="col">d</th>
+						<th scope="col">t</th>
+						<th scope="col">z</th>
+						<th scope="col">s</th>
+						<th scope="col">g</th>
+						<th scope="col">k</th>
+						<th scope="col">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>n</th>
+						<td>wa</td>
+						<td>ra</td>
+						<td>ya</td>
+						<td>ma</td>
+						<td>pa</td>
+						<td>ba</td>
+						<td>ha</td>
+						<td>na</td>
+						<td>da</td>
+						<td>ta</td>
+						<td>za</td>
+						<td>sa</td>
+						<td>ga</td>
+						<td>ka</td>
+						<td class="bg-info">a</td>
+					</tr>
+					<tr>
+						<th>n</th>
+						<td>&nbsp;</td>
+						<td>ri</td>
+						<td>&nbsp;</td>
+						<td>mi</td>
+						<td>pi</td>
+						<td>bi</td>
+						<td>hi</td>
+						<td>ni</td>
+						<td>ji</td>
+						<td>chi</td>
+						<td>za</td>
+						<td>shi</td>
+						<td>gi</td>
+						<td>ki</td>
+						<td class="bg-info">i</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>ru</td>
+						<td>yu</td>
+						<td>mu</td>
+						<td>pu</td>
+						<td>bu</td>
+						<td>fu</td>
+						<td>nu</td>
+						<td>ju</td>
+						<td>tsu</td>
+						<td>zu</td>
+						<td>su</td>
+						<td>gu</td>
+						<td>ku</td>
+						<td class="bg-info">u</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>re</td>
+						<td>ye</td>
+						<td>me</td>
+						<td>pe</td>
+						<td>be</td>
+						<td>he</td>
+						<td>ne</td>
+						<td>de</td>
+						<td>te</td>
+						<td>ze</td>
+						<td>se</td>
+						<td>ge</td>
+						<td>ke</td>
+						<td class="bg-info">e</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>wo (o)</td>
+						<td>ro</td>
+						<td>yo</td>
+						<td>mo</td>
+						<td>po</td>
+						<td>bo</td>
+						<td>ho</td>
+						<td>no</td>
+						<td>do</td>
+						<td>to</td>
+						<td>zo</td>
+						<td>so</td>
+						<td>go</td>
+						<td>ko</td>
+						<td class="bg-info">o</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>&nbsp;</p>
+			<h5>Basic sounds grouped by similar syllable.</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-light">
+						<th scope="col">n</th>
+						<th scope="col">w</th>
+						<th scope="col">r</th>
+						<th scope="col">y</th>
+						<th scope="col">m</th>
+						<th scope="col">p</th>
+						<th scope="col">b</th>
+						<th scope="col">h</th>
+						<th scope="col">n</th>
+						<th scope="col">d</th>
+						<th scope="col">t</th>
+						<th scope="col">z</th>
+						<th scope="col">s</th>
+						<th scope="col">g</th>
+						<th scope="col">k</th>
+						<th scope="col">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>n</th>
+						<td>wa</td>
+						<td>ra</td>
+						<td>ya</td>
+						<td>ma</td>
+						<td>pa</td>
+						<td>ba</td>
+						<td>ha</td>
+						<td>na</td>
+						<td>da</td>
+						<td>ta</td>
+						<td>za</td>
+						<td>sa</td>
+						<td>ga</td>
+						<td>ka</td>
+						<td class="bg-info">a</td>
+					</tr>
+					<tr>
+						<th>n</th>
+						<td>&nbsp;</td>
+						<td>ri</td>
+						<td>&nbsp;</td>
+						<td>mi</td>
+						<td>pi</td>
+						<td>bi</td>
+						<td>hi</td>
+						<td>ni</td>
+						<td>ji</td>
+						<td>chi</td>
+						<td>za</td>
+						<td>shi</td>
+						<td>gi</td>
+						<td>ki</td>
+						<td class="bg-info">i</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>ru</td>
+						<td>yu</td>
+						<td>mu</td>
+						<td>pu</td>
+						<td>bu</td>
+						<td>fu</td>
+						<td>nu</td>
+						<td>ju</td>
+						<td>tsu</td>
+						<td>zu</td>
+						<td>su</td>
+						<td>gu</td>
+						<td>ku</td>
+						<td class="bg-info">u</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>re</td>
+						<td>ye</td>
+						<td>me</td>
+						<td>pe</td>
+						<td>be</td>
+						<td>he</td>
+						<td>ne</td>
+						<td>de</td>
+						<td>te</td>
+						<td>ze</td>
+						<td>se</td>
+						<td>ge</td>
+						<td>ke</td>
+						<td class="bg-info">e</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>wo (o)</td>
+						<td>ro</td>
+						<td>yo</td>
+						<td>mo</td>
+						<td>po</td>
+						<td>bo</td>
+						<td>ho</td>
+						<td>no</td>
+						<td>do</td>
+						<td>to</td>
+						<td>zo</td>
+						<td>so</td>
+						<td>go</td>
+						<td>ko</td>
+						<td class="bg-info">o</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>&nbsp;</p>
+			<h5>Voiced sounds grouped by similar syllable.</h5>
+			<table class="table table-hover text-center">
+				<thead>
+					<tr class="table-light">
+						<th scope="col">n</th>
+						<th scope="col">w</th>
+						<th scope="col">r</th>
+						<th scope="col">y</th>
+						<th scope="col">m</th>
+						<th scope="col">p</th>
+						<th scope="col">b</th>
+						<th scope="col">h</th>
+						<th scope="col">n</th>
+						<th scope="col">d</th>
+						<th scope="col">t</th>
+						<th scope="col">z</th>
+						<th scope="col">s</th>
+						<th scope="col">g</th>
+						<th scope="col">k</th>
+						<th scope="col">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>n</th>
+						<td>wa</td>
+						<td>ra</td>
+						<td>ya</td>
+						<td>ma</td>
+						<td>pa</td>
+						<td>ba</td>
+						<td>ha</td>
+						<td>na</td>
+						<td>da</td>
+						<td>ta</td>
+						<td>za</td>
+						<td>sa</td>
+						<td>ga</td>
+						<td>ka</td>
+						<td class="bg-info">a</td>
+					</tr>
+					<tr>
+						<th>n</th>
+						<td>&nbsp;</td>
+						<td>ri</td>
+						<td>&nbsp;</td>
+						<td>mi</td>
+						<td>pi</td>
+						<td>bi</td>
+						<td>hi</td>
+						<td>ni</td>
+						<td>ji</td>
+						<td>chi</td>
+						<td>za</td>
+						<td>shi</td>
+						<td>gi</td>
+						<td>ki</td>
+						<td class="bg-info">i</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>ru</td>
+						<td>yu</td>
+						<td>mu</td>
+						<td>pu</td>
+						<td>bu</td>
+						<td>fu</td>
+						<td>nu</td>
+						<td>ju</td>
+						<td>tsu</td>
+						<td>zu</td>
+						<td>su</td>
+						<td>gu</td>
+						<td>ku</td>
+						<td class="bg-info">u</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>&nbsp;</td>
+						<td>re</td>
+						<td>ye</td>
+						<td>me</td>
+						<td>pe</td>
+						<td>be</td>
+						<td>he</td>
+						<td>ne</td>
+						<td>de</td>
+						<td>te</td>
+						<td>ze</td>
+						<td>se</td>
+						<td>ge</td>
+						<td>ke</td>
+						<td class="bg-info">e</td>
+					</tr>
+					<tr>
+						<th>&nbsp;</th>
+						<td>wo (o)</td>
+						<td>ro</td>
+						<td>yo</td>
+						<td>mo</td>
+						<td>po</td>
+						<td>bo</td>
+						<td>ho</td>
+						<td>no</td>
+						<td>do</td>
+						<td>to</td>
+						<td>zo</td>
+						<td>so</td>
+						<td>go</td>
+						<td>ko</td>
+						<td class="bg-info">o</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+		<div class="col-1">&nbsp;</div>
+	</div>
+</div>
+
+
+</main>
+
+{% endblock %}

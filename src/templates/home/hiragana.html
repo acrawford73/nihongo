@@ -1,0 +1,1098 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+	<div class="container">
+      <h1>Learn Japanese Hiragana</h1>
+      <p class="lead text-muted">Learn all syllables in the Hiragana character set.</p>
+	</div>
+  </section>
+
+<div class="container-sm">
+	<div class="row mb-12 text-center">
+		
+		<div class="col-12">
+
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<a class="nav-link active" id="vertical-tab" data-toggle="tab" href="#vertical" role="tab" aria-controls="home" aria-selected="true">Vertical</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="horizontal-tab" data-toggle="tab" href="#horizontal" role="tab" aria-controls="profile" aria-selected="false">Horizontal</a>
+				</li>
+				<li class="nav-item" role="presentation">
+					<a class="nav-link" id="horizontal_r-tab" data-toggle="tab" href="#horizontal_r" role="tab" aria-controls="contact" aria-selected="false">Horizontal Reversed</a>
+				</li>
+			</ul>
+			
+			<div class="tab-content" id="myTabContent">
+				<!-- Vertical -->
+				<div class="tab-pane fade show active" id="vertical" role="tabpanel" aria-labelledby="vertical-tab">
+					<p>&nbsp;</p>
+					<h2>Basic Hiragana: 46 Characters</h2>
+					<h4>Kihon no Hiragana</h4>
+					<h5>きほんのひらがな</h5>
+					<p>&nbsp;</p>
+					<h5>Basic Monographs</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="table-info">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">a&nbsp;&nbsp;あ</th>
+								<th scope="col">i&nbsp;&nbsp;い</th>
+								<th scope="col">u&nbsp;&nbsp;う</th>
+								<th scope="col">e&nbsp;&nbsp;え</th>
+								<th scope="col">o&nbsp;&nbsp;お</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="bg-light">k</th>
+								<td>ka&nbsp;&nbsp;か</td>
+								<td>ki&nbsp;&nbsp;き</td>
+								<td>ku&nbsp;&nbsp;く</td>
+								<td>ke&nbsp;&nbsp;け</td>
+								<td>ko&nbsp;&nbsp;こ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">s</th>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>so&nbsp;&nbsp;そ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">t</th>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>to&nbsp;&nbsp;と</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">h</th>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">m</th>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>mo&nbsp;&nbsp;も</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">n</th>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>no&nbsp;&nbsp;の</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">y</th>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>&nbsp;</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>&nbsp;</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">r</th>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">w</th>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">n</th>
+								<td>n&nbsp;&nbsp;ん</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					<h5>Diacritics</h5>
+					<table class="table table-hover text-center">
+						<tbody>
+							<tr>
+								<th scope="row" class="bg-light">k > g</th>
+								<td>ga&nbsp;&nbsp;が</td>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<td>go&nbsp;&nbsp;ご</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">s > z</th>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">t > d</th>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>  <!-- di -->
+								<td>dzu&nbsp;&nbsp;づ</td> <!-- du -->
+								<td>de&nbsp;&nbsp;で</td>
+								<td>do&nbsp;&nbsp;ど</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">h > b</th>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">h > p</th>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+								<td>pi&nbsp;&nbsp;ぴ</td>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+								<td>po&nbsp;&nbsp;ぽ</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>&nbsp;</p>
+					<h5>Basic and Voiced syllables grouped by similar character.</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="table-info">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">a&nbsp;&nbsp;あ</th>
+								<th scope="col">i&nbsp;&nbsp;い</th>
+								<th scope="col">u&nbsp;&nbsp;う</th>
+								<th scope="col">e&nbsp;&nbsp;え</th>
+								<th scope="col">o&nbsp;&nbsp;お</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="bg-light">k</th>
+								<td>ka&nbsp;&nbsp;か</td>
+								<td>ki&nbsp;&nbsp;き</td>
+								<td>ku&nbsp;&nbsp;く</td>
+								<td>ke&nbsp;&nbsp;け</td>
+								<td>ko&nbsp;&nbsp;こ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">g</th>
+								<td>ga&nbsp;&nbsp;が</td>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<td>go&nbsp;&nbsp;ご</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">s</th>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>so&nbsp;&nbsp;そ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">z</th>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">t</th>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>to&nbsp;&nbsp;と</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">d</th>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>
+								<td>dzu&nbsp;&nbsp;づ</td>
+								<td>de&nbsp;&nbsp;で</td>
+								<td>do&nbsp;&nbsp;ど</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">h</th>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">b</th>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">p</th>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+								<td>pi&nbsp;&nbsp;ぴ</td>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+								<td>po&nbsp;&nbsp;ぽ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">m</th>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>mo&nbsp;&nbsp;も</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">n</th>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>no&nbsp;&nbsp;の</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">y</th>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>&nbsp;</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>&nbsp;</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">r</th>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">w</th>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">n</th>
+								<td>n&nbsp;&nbsp;ん</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>&nbsp;</p>
+					<h2>Hiragana Digraphs: 36 Combinations</h2>
+					<p>&nbsp;</p>
+					<h5>Contracted sounds grouped by similar character.</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="table-info">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">ya&nbsp;&nbsp;や</th>
+								<th scope="col">yu&nbsp;&nbsp;ゆ</th>
+								<th scope="col">yo&nbsp;&nbsp;よ</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="bg-light">k</th>
+								<td>kya&nbsp;&nbsp;きゃ</td>
+								<td>kyu&nbsp;&nbsp;きゅ</td>
+								<td>kyo&nbsp;&nbsp;きょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">g</th>
+								<td>gya&nbsp;&nbsp;ぎゃ</td>
+								<td>gyu&nbsp;&nbsp;ぎゅ</td>
+								<td>gyo&nbsp;&nbsp;ぎょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">s</th>
+								<td>sha&nbsp;&nbsp;しゃ</td>
+								<td>shu&nbsp;&nbsp;しゅ</td>
+								<td>sho&nbsp;&nbsp;しょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">j</th>
+								<td>ja&nbsp;&nbsp;じゃ</td>
+								<td>ju&nbsp;&nbsp;じゅ</td>
+								<td>jo&nbsp;&nbsp;じょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">c</th>
+								<td>cha&nbsp;&nbsp;ちゃ</td>
+								<td>chu&nbsp;&nbsp;ちゅ</td>
+								<td>cho&nbsp;&nbsp;ちょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">j</th>
+								<td>dza(ja)&nbsp;&nbsp;ぢゃ</td>
+								<td>dzu(ju)&nbsp;&nbsp;ぢゅ</td>
+								<td>dzo(jo)&nbsp;&nbsp;ぢょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">h</th>
+								<td>hya&nbsp;&nbsp;ひゃ</td>
+								<td>hyu&nbsp;&nbsp;ひゅ</td>
+								<td>hyo&nbsp;&nbsp;ひょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">b</th>
+								<td>bya&nbsp;&nbsp;びゃ</td>
+								<td>byu&nbsp;&nbsp;びゅ</td>
+								<td>byo&nbsp;&nbsp;びょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">p</th>
+								<td>pya&nbsp;&nbsp;ぴゃ</td>
+								<td>pyu&nbsp;&nbsp;ぴゅ</td>
+								<td>pyo&nbsp;&nbsp;ぴょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">m</th>
+								<td>mya&nbsp;&nbsp;みゃ</td>
+								<td>myu&nbsp;&nbsp;みゅ</td>
+								<td>myo&nbsp;&nbsp;みょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">n</th>
+								<td>nya&nbsp;&nbsp;にゃ</td>
+								<td>nyu&nbsp;&nbsp;にゅ</td>
+								<td>nyo&nbsp;&nbsp;にょ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">r</th>
+								<td>rya&nbsp;&nbsp;りゃ</td>
+								<td>ryu&nbsp;&nbsp;りゅ</td>
+								<td>ryo&nbsp;&nbsp;りょ</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+				<!-- Horizontal -->
+				<div class="tab-pane fade" id="horizontal" role="tabpanel" aria-labelledby="horizontal-tab">
+					<p>&nbsp;</p>
+					<h2>Basic Hiragana: 46 Characters</h2>
+					<h4>Kihon no Hiragana</h4>
+					<h5>きほんのひらがな</h5>
+					<p>&nbsp;</p>
+					<h5>Basic and Voiced syllables grouped by similar character.</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">k</th>
+								<th scope="col">g</th>
+								<th scope="col">s</th>
+								<th scope="col">z</th>
+								<th scope="col">t</th>
+								<th scope="col">d</th>
+								<th scope="col">h</th>
+								<th scope="col">b</th>
+								<th scope="col">p</th>
+								<th scope="col">m</th>
+								<th scope="col">n</th>
+								<th scope="col">y</th>
+								<th scope="col">r</th>
+								<th scope="col">w</th>
+								<th scope="col">n</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+								<td>ka&nbsp;&nbsp;か</td>
+								<td>ga&nbsp;&nbsp;が</td>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>n&nbsp;&nbsp;ん</td>
+							</tr>
+							<tr>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+								<td>ki&nbsp;&nbsp;き</td>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>pi&nbsp;&nbsp;ぴ</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>&nbsp;</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+								<td>ku&nbsp;&nbsp;く</td>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>dzu&nbsp;&nbsp;づ</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+								<td>ke&nbsp;&nbsp;け</td>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>de&nbsp;&nbsp;で</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>&nbsp;</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+								<td>ko&nbsp;&nbsp;こ</td>
+								<td>go&nbsp;&nbsp;ご</td>
+								<td>so&nbsp;&nbsp;そ</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+								<td>to&nbsp;&nbsp;と</td>
+								<td>do&nbsp;&nbsp;ど</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+								<td>po&nbsp;&nbsp;ぽ</td>
+								<td>mo&nbsp;&nbsp;も</td>
+								<td>no&nbsp;&nbsp;の</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>&nbsp;</p>
+					<h5>Basic Monographs</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">k</th>
+								<th scope="col">s</th>
+								<th scope="col">t</th>
+								<th scope="col">h</th>
+								<th scope="col">m</th>
+								<th scope="col">n</th>
+								<th scope="col">y</th>
+								<th scope="col">r</th>
+								<th scope="col">w</th>
+								<th scope="col">n</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+								<td>ka&nbsp;&nbsp;か</td>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>n&nbsp;&nbsp;ん</td>
+							</tr>
+							<tr>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+								<td>ki&nbsp;&nbsp;き</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>&nbsp;</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+								<td>ku&nbsp;&nbsp;く</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+								<td>ke&nbsp;&nbsp;け</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>&nbsp;</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+								<td>ko&nbsp;&nbsp;こ</td>
+								<td>so&nbsp;&nbsp;そ</td>
+								<td>to&nbsp;&nbsp;と</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+								<td>mo&nbsp;&nbsp;も</td>
+								<td>no&nbsp;&nbsp;の</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>&nbsp;</p>
+					<h5>Voiced Diacritics</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">g</th>
+								<th scope="col">z</th>
+								<th scope="col">d</th>
+								<th scope="col">b</th>
+								<th scope="col">p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+								<td>ga&nbsp;&nbsp;が</td>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+							</tr>
+							<tr>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>pi&nbsp;&nbsp;ぴ</td>
+							</tr>
+							<tr>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>dzu&nbsp;&nbsp;づ</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+							</tr>
+							<tr>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>de&nbsp;&nbsp;で</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+							</tr>
+							<tr>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+								<td>go&nbsp;&nbsp;ご</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+								<td>do&nbsp;&nbsp;ど</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+								<td>po&nbsp;&nbsp;ぽ</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>&nbsp;</p>
+					<h2>Hiragana Digraphs: 36 Combinations</h2>
+					<p>&nbsp;</p>
+					<h5>Contracted sounds grouped by similar character.</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="table-info">
+								<th scope="col">&nbsp;</th>
+								<th scope="col">k</th>
+								<th scope="col">g</th>
+								<th scope="col">s</th>
+								<th scope="col">j</th>
+								<th scope="col">t</th>
+								<th scope="col">d</th>
+								<th scope="col">h</th>
+								<th scope="col">b</th>
+								<th scope="col">p</th>
+								<th scope="col">m</th>
+								<th scope="col">n</th>
+								<th scope="col">r</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row" class="bg-light">ya&nbsp;&nbsp;や</th>
+								<td>kya</br>きゃ</td>
+								<td>gya</br>ぎゃ</td>
+								<td>sha</br>しゃ</td>
+								<td>ja</br>じゃ</td>
+								<td>cha</br>ちゃ</td>
+								<td>dza(ja)</br>ぢゃ</td>
+								<td>hya</br>ひゃ</td>
+								<td>bya</br>びゃ</td>
+								<td>pya</br>ぴゃ</td>
+								<td>mya</br>みゃ</td>
+								<td>nya</br>にゃ</td>
+								<td>rya</br>りゃ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">yu&nbsp;&nbsp;ゆ</th>
+								<td>kyu</br>きゅ</td>
+								<td>gyu</br>ぎゅ</td>
+								<td>shu</br>しゅ</td>
+								<td>ju</br>じゅ</td>
+								<td>chu</br>ちゅ</td>
+								<td>dzu(ju)</br>ぢゅ</td>
+								<td>hyu</br>ひゅ</td>
+								<td>byu</br>びゅ</td>
+								<td>pyu</br>ぴゅ</td>
+								<td>myu</br>みゅ</td>
+								<td>nyu</br>にゅ</td>
+								<td>ryu</br>りゅ</td>
+							</tr>
+							<tr>
+								<th scope="row" class="bg-light">yo&nbsp;&nbsp;よ</th>
+								<td>kyo</br>きょ</td>
+								<td>gyo</br>ぎょ</td>
+								<td>sho</br>しょ</td>
+								<td>jo</br>じょ</td>
+								<td>cho</br>ちょ</td>
+								<td>dzo(jo)</br>ぢょ</td>
+								<td>hyo</br>ひょ</td>
+								<td>byo</br>びょ</td>
+								<td>pyo</br>ぴょ</td>
+								<td>myo</br>みょ</td>
+								<td>nyo</br>にょ</td>
+								<td>ryo</br>りょ</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+				<!-- Horizontal Reverse -->
+				<div class="tab-pane fade" id="horizontal_r" role="tabpanel" aria-labelledby="horizontal_r-tab">
+
+					<p>&nbsp;</p>
+					<h2>Basic Hiragana: 46 Characters</h2>
+					<h4>Kihon no Hiragana</h4>
+					<h5>きほんのひらがな</h5>
+					<p>&nbsp;</p>
+					<h5>Basic and Voiced syllables grouped by similar character</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">n</th>
+								<th scope="col">w</th>
+								<th scope="col">r</th>
+								<th scope="col">y</th>
+								<th scope="col">n</th>
+								<th scope="col">m</th>
+								<th scope="col">p</th>
+								<th scope="col">b</th>
+								<th scope="col">h</th>
+								<th scope="col">d</th>
+								<th scope="col">t</th>
+								<th scope="col">z</th>
+								<th scope="col">s</th>
+								<th scope="col">g</th>
+								<th scope="col">k</th>
+								<th scope="col">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>n&nbsp;&nbsp;ん</td>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>ga&nbsp;&nbsp;が</td>
+								<td>ka&nbsp;&nbsp;か</td>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>&nbsp;</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>pi&nbsp;&nbsp;ぴ</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<td>ki&nbsp;&nbsp;き</td>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>dzu&nbsp;&nbsp;づ</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<td>ku&nbsp;&nbsp;</td>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>&nbsp;</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>de&nbsp;&nbsp;で</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<td>ke&nbsp;&nbsp;け</td>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+								<td>no&nbsp;&nbsp;の</td>
+								<td>mo&nbsp;&nbsp;も</td>
+								<td>po&nbsp;&nbsp;ぽ</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+								<td>do&nbsp;&nbsp;ど</td>
+								<td>to&nbsp;&nbsp;と</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+								<td>so&nbsp;&nbsp;そ</td>
+								<td>go&nbsp;&nbsp;ご</td>
+								<td>ko&nbsp;&nbsp;こ</td>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>&nbsp;</p>
+					<h5>Basic Mongraphs</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">n</th>
+								<th scope="col">w</th>
+								<th scope="col">r</th>
+								<th scope="col">y</th>
+								<th scope="col">n</th>
+								<th scope="col">m</th>
+								<th scope="col">h</th>
+								<th scope="col">t</th>
+								<th scope="col">s</th>
+								<th scope="col">k</th>
+								<th scope="col">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>n&nbsp;&nbsp;ん</td>
+								<td>wa&nbsp;&nbsp;わ</td>
+								<td>ra&nbsp;&nbsp;ら</td>
+								<td>ya&nbsp;&nbsp;や</td>
+								<td>na&nbsp;&nbsp;な</td>
+								<td>ma&nbsp;&nbsp;ま</td>
+								<td>ha&nbsp;&nbsp;は</td>
+								<td>ta&nbsp;&nbsp;た</td>
+								<td>sa&nbsp;&nbsp;さ</td>
+								<td>ka&nbsp;&nbsp;か</td>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>ri&nbsp;&nbsp;り</td>
+								<td>&nbsp;</td>
+								<td>ni&nbsp;&nbsp;に</td>
+								<td>mi&nbsp;&nbsp;み</td>
+								<td>hi&nbsp;&nbsp;ひ</td>
+								<td>chi&nbsp;&nbsp;ち</td>
+								<td>shi&nbsp;&nbsp;し</td>
+								<td>ki&nbsp;&nbsp;き</td>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>ru&nbsp;&nbsp;る</td>
+								<td>yu&nbsp;&nbsp;ゆ</td>
+								<td>nu&nbsp;&nbsp;ぬ</td>
+								<td>mu&nbsp;&nbsp;む</td>
+								<td>fu&nbsp;&nbsp;ふ</td>
+								<td>tsu&nbsp;&nbsp;つ</td>
+								<td>su&nbsp;&nbsp;す</td>
+								<td>ku&nbsp;&nbsp;</td>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>re&nbsp;&nbsp;れ</td>
+								<td>&nbsp;</td>
+								<td>ne&nbsp;&nbsp;ね</td>
+								<td>me&nbsp;&nbsp;め</td>
+								<td>he&nbsp;&nbsp;へ</td>
+								<td>te&nbsp;&nbsp;て</td>
+								<td>se&nbsp;&nbsp;せ</td>
+								<td>ke&nbsp;&nbsp;け</td>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>wo(o)&nbsp;&nbsp;を</td>
+								<td>ro&nbsp;&nbsp;ろ</td>
+								<td>yo&nbsp;&nbsp;よ</td>
+								<td>no&nbsp;&nbsp;の</td>
+								<td>mo&nbsp;&nbsp;も</td>
+								<td>ho&nbsp;&nbsp;ほ</td>
+								<td>to&nbsp;&nbsp;と</td>
+								<td>so&nbsp;&nbsp;そ</td>
+								<td>ko&nbsp;&nbsp;こ</td>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>&nbsp;</p>
+					<h5>Voiced Diacritics</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="bg-light">
+								<th scope="col">p</th>
+								<th scope="col">b</th>
+								<th scope="col">d</th>
+								<th scope="col">z</th>
+								<th scope="col">g</th>
+								<th scope="col">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>pa&nbsp;&nbsp;ぱ</td>
+								<td>ba&nbsp;&nbsp;ば</td>
+								<td>da&nbsp;&nbsp;だ</td>
+								<td>za&nbsp;&nbsp;ざ</td>
+								<td>ga&nbsp;&nbsp;が</td>
+								<th class="bg-info">a&nbsp;&nbsp;あ</th>
+							</tr>
+							<tr>
+
+								<td>pi&nbsp;&nbsp;ぴ</td>
+								<td>bi&nbsp;&nbsp;び</td>
+								<td>dzi(ji)&nbsp;&nbsp;ぢ</td>
+								<td>ji&nbsp;&nbsp;じ</td>
+								<td>gi&nbsp;&nbsp;ぎ</td>
+								<th class="bg-info">i&nbsp;&nbsp;い</th>
+							</tr>
+							<tr>
+								<td>pu&nbsp;&nbsp;ぷ</td>
+								<td>bu&nbsp;&nbsp;ぶ</td>
+								<td>dzu&nbsp;&nbsp;づ</td>
+								<td>zu&nbsp;&nbsp;ず</td>
+								<td>gu&nbsp;&nbsp;ぐ</td>
+								<th class="bg-info">u&nbsp;&nbsp;う</th>
+							</tr>
+							<tr>
+								<td>pe&nbsp;&nbsp;ぺ</td>
+								<td>be&nbsp;&nbsp;べ</td>
+								<td>de&nbsp;&nbsp;で</td>
+								<td>ze&nbsp;&nbsp;ぜ</td>
+								<td>ge&nbsp;&nbsp;げ</td>
+								<th class="bg-info">e&nbsp;&nbsp;え</th>
+							</tr>
+							<tr>
+								<td>po&nbsp;&nbsp;ぽ</td>
+								<td>bo&nbsp;&nbsp;ぼ</td>
+								<td>do&nbsp;&nbsp;ど</td>
+								<td>zo&nbsp;&nbsp;ぞ</td>
+								<td>go&nbsp;&nbsp;ご</td>
+								<th class="bg-info">o&nbsp;&nbsp;お</th>
+							</tr>
+						</tbody>
+					</table>
+
+					<p>&nbsp;</p>
+					<h2>Hiragana Digraphs: 36 Combinations</h2>
+					<p>&nbsp;</p>
+					<h5>Contracted sounds grouped by similar character.</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr class="table-info">
+								<th scope="col">r</th>
+								<th scope="col">n</th>
+								<th scope="col">m</th>
+								<th scope="col">p</th>
+								<th scope="col">b</th>
+								<th scope="col">h</th>
+								<th scope="col">d</th>
+								<th scope="col">t</th>
+								<th scope="col">j</th>
+								<th scope="col">s</th>
+								<th scope="col">g</th>
+								<th scope="col">k</th>
+								<th scope="col">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>rya</br>りゃ</td>
+								<td>nya</br>にゃ</td>
+								<td>mya</br>みゃ</td>
+								<td>pya</br>ぴゃ</td>
+								<td>bya</br>びゃ</td>
+								<td>hya</br>ひゃ</td>
+								<td>dza(ja)</br>/br>ぢゃ</td>
+								<td>cha</br>ちゃ</td>
+								<td>ja</br>じゃ</td>
+								<td>sha</br>しゃ</td>
+								<td>gya</br>ぎゃ</td>
+								<td>kya</br>きゃ</td>
+								<th scope="row" class="bg-light">ya&nbsp;&nbsp;や</th>
+							</tr>
+							<tr>
+								<td>ryu</br>りゅ</td>
+								<td>nyu</br>にゅ</td>
+								<td>myu</br>みゅ</td>
+								<td>pyu</br>ぴゅ</td>
+								<td>byu</br>びゅ</td>
+								<td>hyu</br>ひゅ</td>
+								<td>dzu(ju)</br>ぢゅ</td>
+								<td>chu</br>ちゅ</td>
+								<td>ju</br>じゅ</td>
+								<td>shu</br>しゅ</td>
+								<td>gyu</br>ぎゅ</td>
+								<td>kyu</br>きゅ</td>
+								<th scope="row" class="bg-light">yu&nbsp;&nbsp;ゆ</th>
+							</tr>
+							<tr>
+								<td>ryo</br>りょ</td>
+								<td>nyo</br>にょ</td>
+								<td>myo</br>みょ</td>
+								<td>pyo</br>ぴょ</td>
+								<td>byo</br>びょ</td>
+								<td>hyo</br>ひょ</td>
+								<td>dzo(jo)</br>ぢょ</td>
+								<td>cho</br>ちょ</td>
+								<td>jo</br>じょ</td>
+								<td>sho</br>しょ</td>
+								<td>gyo</br>ぎょ</td>
+								<td>kyo</br>きょ</td>
+								<th scope="row" class="bg-light">yo&nbsp;&nbsp;よ</th>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+			<!-- /tabs -->
+
+		</div>
+
+	</div>
+</div>
+
+
+</main>
+
+{% endblock %}
