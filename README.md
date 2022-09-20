@@ -1,8 +1,6 @@
 ## Japanese Kana
 
-Show different table based views of Japanese Hiragana and Katakana.
-
-Django web framework is used.
+Show different table based views of Japanese Hiragana and Katakana using Django web framework.
 
 # Install
 
